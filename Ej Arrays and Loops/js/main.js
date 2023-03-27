@@ -14,3 +14,12 @@ console.log(nombres);
 console.log(nombres.unshift(Renata));
 
 //Ejercicio 2
+
+for (let i = 1; i <= 6; ++i){
+    let resultado = '';
+
+    for (let j =1; j <= i; ++j){
+        resultado += '*';
+    }
+    console.log(resultado);
+}
